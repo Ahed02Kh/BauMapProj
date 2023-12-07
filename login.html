@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div class="login-wrap">
+        <div class="login-html">
+            <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
+            <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
+            <div class="login-form">
+                <div id="error"></div>
+                <form id="form1" action="/">
+                <div class="sign-in-htm">
+                    <div class="group">
+                        <label for="user"  class="label">Student ID</label>
+                        <input id="user" type="text" required class="input" >
+                        <i class="fas fa-envelope"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                    </div>
+                    <div class="group">
+                        <label for="pass" class="label">Password</label>
+                        <input id="pass" type="password" required class="input" data-type="password">
+                    </div>
+                    <div class="group">
+                        <input id="check" type="checkbox" class="check" checked>
+                        <label for="check"><span class="icon"></span> Keep me Signed in</label>
+                    </div>
+                    <div class="group">
+                      <input type="submit" class="button" value="Sign In" ></a>
+                    </div>
+                    <div class="hr"></div>
+                    <div class="foot-lnk">
+                        <a href="map-guest.html">Sign in as a guest</a>
+                    </div>
+                </div>
+
+
+                <form id="form" action="/">
+                <div class="sign-up-htm">
+                    <div class="group input-control">
+                        <label for="name" class="label">Name</label>
+                        <input id="name" type="text" class="input" placeholder="Please Enter Your Name">
+                        <div class="error"></div>
+                    </div>
+                    <div class="group input-control">
+                        <label for="student_id" class="label">Student ID</label>
+                        <input id="student_id" type="text" class="input" placeholder="Please Enter Your University Number">
+                        <div class="error"></div>
+                    </div>
+                    <div class="group input-control">
+                        <label for="password" class="label">Password</label>
+                        <input id="password" type="password" class="input" data-type="password" placeholder="Please Enter Your National Number">
+                        <div class="error"></div>
+                    <br>
+
+                    <div class="group">
+                        <input type="submit" class="button" value="Sign Up">
+                    </div>
+                    <div class="hr"></div>
+                    <div class="foot-lnk">
+                        <label for="tab-1">Already Member?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+    </form>
+</body>
+<script src="script.js"></script>
+
+</html>
+
+
